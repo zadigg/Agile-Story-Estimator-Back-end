@@ -1,4 +1,4 @@
-package com.storyestimationcore.score_estimation_core.user;
+package com.storyestimationcore.score_estimation_core.Check;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,10 +9,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(collection = "users")
-public class User {
+@Document(collection = "checks")
+public class Check {
     @Id
     private String id;
     private String username;
-    private String role;
+    private String status;
 }

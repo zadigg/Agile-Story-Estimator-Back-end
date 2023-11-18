@@ -1,8 +1,9 @@
-package com.storyestimationcore.score_estimation_core.user;
+package com.storyestimationcore.score_estimation_core.service;
 
+import com.storyestimationcore.score_estimation_core.domain.User;
 import com.storyestimationcore.score_estimation_core.exception.CustomException;
+import com.storyestimationcore.score_estimation_core.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.bson.types.ObjectId;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

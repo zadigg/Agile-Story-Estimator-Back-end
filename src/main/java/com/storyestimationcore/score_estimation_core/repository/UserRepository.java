@@ -1,8 +1,7 @@
-package com.storyestimationcore.score_estimation_core.user;
+package com.storyestimationcore.score_estimation_core.repository;
 
+import com.storyestimationcore.score_estimation_core.domain.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
-
-import java.util.Optional;
 
 public interface UserRepository extends MongoRepository<User, String> {
     // You can add custom query methods here if needed.
